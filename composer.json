@@ -1,0 +1,39 @@
+{
+    "name": "polopolaw/proxy-manager-client",
+    "description": "PHP клиент для работы с Proxy Manager API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "polopolaw",
+            "email": "your-email@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polopolaw\\ProxyManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Polopolaw\\ProxyManager\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/your-username/proxy-manager-client.git"
+        }
+    ]
+}
